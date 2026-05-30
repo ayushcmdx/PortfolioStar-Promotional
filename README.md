@@ -256,7 +256,7 @@ into one cohesive developer experience.
 
 The full premium package includes:
 
-## ₹195 — Architecture Guide
+## ₹695 — Architecture Guide
 Includes:
 - detailed folder explanations
 - rendering flow
@@ -269,7 +269,7 @@ Includes:
 
 ---
 
-## ₹365 — Full Source Code
+## ₹1065 — Full Source Code
 Includes:
 - complete production codebase
 - all components
@@ -284,7 +284,7 @@ Ready to customize and deploy.
 
 ---
 
-## ₹495 — Complete Bundle (Best Value)
+## ₹1695 — Complete Bundle (Best Value)
 Includes:
 - everything from the Architecture Guide
 - everything from the Full Source Code
