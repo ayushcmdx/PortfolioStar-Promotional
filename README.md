@@ -15,6 +15,13 @@
 
 ---
 
+> [!NOTE]
+> **🗓️ Going fully open source on 26 August 2026.**
+> The complete portfolio source code — every component, every system, every config — will be released publicly in this repository, free for everyone, forever.
+> If you want early access before then, paid plans are available at **[ayushcmd.me/buy](https://www.ayushcmd.me/buy)**.
+
+---
+
 ## Overview
 
 This repository is a **public showcase edition** of my personal portfolio platform.
@@ -254,6 +261,9 @@ into one cohesive developer experience.
 
 # Want the Complete Version?
 
+> [!TIP]
+> **Full source drops free on 26 August 2026.** Can't wait? The paid plans below get you access now.
+
 The full premium package includes:
 
 ## ₹695 — Architecture Guide
@@ -300,6 +310,6 @@ Best for developers who want:
 
 ## Get Access
 
-### → [ayushcmd.me](https://www.ayushcmd.me/buy)
+### → [ayushcmd.me/buy](https://www.ayushcmd.me/buy)
 
 </div>
