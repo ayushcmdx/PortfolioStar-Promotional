@@ -1,315 +1,373 @@
-# Portfolio — Public Free Edition
-
-> A futuristic developer portfolio built with Next.js 15, TypeScript, TailwindCSS, Redis, and AI integrations — optimized for modern deployment platforms and designed with a production-style architecture.
-
 <div align="center">
 
-![Next.js](https://img.shields.io/badge/Next.js_15-black?style=for-the-badge&logo=next.js)
-![React](https://img.shields.io/badge/React_18-20232A?style=for-the-badge&logo=react)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-0F172A?style=for-the-badge&logo=tailwindcss)
-![Redis](https://img.shields.io/badge/Upstash_Redis-111827?style=for-the-badge&logo=redis)
-![Groq AI](https://img.shields.io/badge/Groq_AI-LLaMA_3.3_70B-000000?style=for-the-badge)
+
+
+
+# Portfolio — Public Free Edition
+
+**A futuristic developer portfolio** built with Next.js 15, TypeScript, TailwindCSS, Redis, and AI integrations — engineered with a production-style architecture and deployable.
+
+<br/>
+
+[![Next.js](https://img.shields.io/badge/Next.js_15-0a0a0a?style=for-the-badge&logo=next.js&logoColor=00d9ff&labelColor=0a0a0a)](https://nextjs.org)
+[![React](https://img.shields.io/badge/React_18-0a0a0a?style=for-the-badge&logo=react&logoColor=00d9ff&labelColor=0a0a0a)](https://react.dev)
+[![TypeScript](https://img.shields.io/badge/TypeScript-0a0a0a?style=for-the-badge&logo=typescript&logoColor=00d9ff&labelColor=0a0a0a)](https://www.typescriptlang.org)
+[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-0a0a0a?style=for-the-badge&logo=tailwindcss&logoColor=00d9ff&labelColor=0a0a0a)](https://tailwindcss.com)
+[![Redis](https://img.shields.io/badge/Upstash_Redis-0a0a0a?style=for-the-badge&logo=redis&logoColor=00d9ff&labelColor=0a0a0a)](https://upstash.com)
+[![Groq](https://img.shields.io/badge/Groq_AI-LLaMA_3.3_70B-0a0a0a?style=for-the-badge&logoColor=00d9ff&labelColor=0a0a0a)](https://groq.com)
+
+
+[![License](https://img.shields.io/badge/License-Custom-00d9ff?style=flat-square&labelColor=0a0a0a)](#license)
+[![Made in India](https://img.shields.io/badge/Made_in-India-00d9ff?style=flat-square&labelColor=0a0a0a)](#)
+
+<br/>
+
+<a href="#-live-features"><b>Features</b></a> ·
+<a href="#-tech-stack"><b>Tech Stack</b></a> ·
+<a href="#-route-structure"><b>Routes</b></a> ·
+<a href="#-repository-structure"><b>Structure</b></a> ·
+<a href="#-get-the-full-version"><b>Pricing</b></a> ·
+<a href="#-deployment"><b>Deploy</b></a>
+
+<img src="./docs/divider.svg" alt="" width="100%" height="4"/>
 
 </div>
 
----
-
-> [!NOTE]
-> **🗓️ Going fully open source on 26 August 2026.**
-> The complete portfolio source code — every component, every system, every config — will be released publicly in this repository, free for everyone, forever.
-> If you want early access before then, paid plans are available at **[ayushcmd.me/buy](https://www.ayushcmd.me/buy)**.
-
----
+<br/>
 
 ## Overview
 
-This repository is a **public showcase edition** of my personal portfolio platform.
+This repository is the **public showcase edition** of my personal portfolio platform.
 
 It demonstrates:
-- modern frontend engineering
-- AI-powered experiences
-- real-time communication systems
-- advanced visual effects
-- scalable folder architecture
-- serverless deployment workflows
 
-The project is built to run efficiently on the **Vercel Hobby (Free) Tier** while still delivering premium interactions and performance.
+<table>
+<tr>
+<td width="50%" valign="top">
 
----
+✦ Modern frontend engineering
+✦ AI-powered experiences
+✦ Real-time communication systems
 
-# Live Features
+</td>
+<td width="50%" valign="top">
 
-## ✦ KIRO AI Assistant
-An AI-powered portfolio assistant built using:
-- Groq API
-- LLaMA 3.3 70B
+✦ Advanced visual effects
+✦ Scalable folder architecture
+✦ Serverless deployment workflows
+
+</td>
+</tr>
+</table>
+
+Built to run efficiently on the **Vercel Hobby (Free) Tier** while still delivering premium interactions and performance.
+
+<img src="./docs/divider.svg" alt="" width="100%" height="4"/>
+
+## ✦ Live Features
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 👾 KIRO AI Assistant
+AI-powered portfolio assistant built on:
+- Groq API — LLaMA 3.3 70B
 - Edge Runtime streaming responses
+- Real-time, ultra-fast inference
+- Futuristic chat interface
 
-Features:
-- real-time AI responses
-- futuristic chat interface
-- ultra-fast inference
-- optimized edge execution
+</td>
+<td width="50%" valign="top">
 
----
-
-## ✦ Visitor Lounge
-A real-time multi-user chat system using:
+### 💬 Visitor Lounge
+Real-time multi-user chat system using:
 - Server-Sent Events (SSE)
 - Upstash Redis
-- live message broadcasting
+- Live message broadcasting
+- Concurrent visitor support
 
-Supports:
-- instant communication
-- concurrent visitors
-- serverless event streaming
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
----
+### 🌐 3D Tech Globe
+Custom Canvas2D animated globe featuring:
+- Orbiting technology icons
+- Glow effects & dynamic motion
+- Zero Three.js — lightweight rendering
+- Small bundle, high compatibility
 
-## ✦ 3D Tech Globe
-A custom Canvas2D animated globe featuring:
-- orbiting technology icons
-- glow effects
-- dynamic motion rendering
-- lightweight rendering without Three.js
+</td>
+<td width="50%" valign="top">
 
-Built for:
-- performance
-- compatibility
-- reduced bundle size
-
----
-
-## ✦ Galaxy Background System
+### 🌌 Galaxy Background System
 Custom visual engine containing:
-- particle field
-- spiral galaxy arms
-- ripple interactions
-- shooting stars
-- glow animations
+- Particle field & spiral galaxy arms
+- Ripple interactions
+- Shooting stars & glow animation
+- Cinematic landing experience
 
-Designed to create a cinematic landing experience.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
----
+### 🖼️ Interactive Gallery
+- Image previews with smooth transitions
+- Live like counts, Redis-backed
+- Visitor tracking
 
-## ✦ Interactive Gallery
-Gallery system with:
-- image previews
-- live like counts
-- Redis-backed interactions
-- smooth transitions
+</td>
+<td width="50%" valign="top">
 
----
+### 📊 Spectrum Analytics
+- Country-level visitor insights
+- OS / device breakdown
+- Engagement tracking dashboard
 
-## ✦ Spectrum Analytics
-Visitor analytics dashboard featuring:
-- country insights
-- OS/device breakdown
-- engagement tracking
-- visual statistics
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
----
+### 🏅 Credentials Showcase
+- Verification links per credential
+- Responsive card layouts
+- Categorized certificate grid
 
-## ✦ Credentials Showcase
-Certificate system with:
-- verification links
-- responsive card layouts
-- categorized credentials
+</td>
+<td width="50%" valign="top">
 
----
+### ⚡ Zero-Cost Infrastructure
+- Vercel Hobby + Upstash Free + Groq Free
+- No database, no server to manage
+- Scales gracefully when you need more
 
-# Tech Stack
+</td>
+</tr>
+</table>
 
-## Frontend
-- Next.js 15
-- React 18
-- TypeScript
-- TailwindCSS
-- Framer Motion
-- Lenis Smooth Scroll
+<img src="./docs/divider.svg" alt="" width="100%" height="4"/>
 
----
+## ✦ Tech Stack
 
-## Backend
-- Next.js API Routes
-- Node.js Runtime
-- Edge Runtime
-- Server-Sent Events (SSE)
+<table>
+<tr><th width="20%">Layer</th><th>Technology</th></tr>
+<tr><td><b>Frontend</b></td><td>Next.js 15 · React 18 · TypeScript · TailwindCSS · Framer Motion · Lenis Smooth Scroll</td></tr>
+<tr><td><b>Backend</b></td><td>Next.js API Routes · Node.js Runtime · Edge Runtime · Server-Sent Events</td></tr>
+<tr><td><b>Data Layer</b></td><td>Upstash Redis · Serverless HTTP Redis architecture</td></tr>
+<tr><td><b>AI</b></td><td>Groq API · LLaMA 3.3 70B Versatile</td></tr>
+<tr><td><b>Email & Analytics</b></td><td>Resend · Vercel Analytics · Google Analytics</td></tr>
+<tr><td><b>Deployment</b></td><td>Vercel Hobby Tier · Optimized for ₹0/month</td></tr>
+</table>
 
----
+<img src="./docs/divider.svg" alt="" width="100%" height="4"/>
 
-## Data Layer
-- Upstash Redis
-- Serverless HTTP Redis architecture
+## ✦ Route Structure
 
----
+<table>
+<tr><th width="18%">Route</th><th>Description</th></tr>
+<tr><td><code>/</code></td><td>Hero section, projects, globe, skills, contact</td></tr>
+<tr><td><code>/about</code></td><td>Detailed background and overview</td></tr>
+<tr><td><code>/skills</code></td><td>Interactive technology showcase</td></tr>
+<tr><td><code>/projects</code></td><td>Project collection grid</td></tr>
+<tr><td><code>/credentials</code></td><td>Certificates and achievements</td></tr>
+<tr><td><code>/gallery</code></td><td>Media gallery with likes</td></tr>
+<tr><td><code>/spectrum</code></td><td>Visitor analytics dashboard</td></tr>
+<tr><td><code>/kiro</code></td><td>AI assistant interface</td></tr>
+</table>
 
-## AI
-- Groq API
-- LLaMA 3.3 70B Versatile
+<img src="./docs/divider.svg" alt="" width="100%" height="4"/>
 
----
-
-## Email & Analytics
-- Resend
-- Vercel Analytics
-- Google Analytics
-
----
-
-## Deployment
-- Vercel Hobby Tier
-- Optimized for ₹0/month deployment
-
----
-
-# Route Structure
-
-| Route | Description |
-|---|---|
-| `/` | Hero section, projects, globe, skills, contact |
-| `/about` | Detailed background and overview |
-| `/skills` | Interactive technology showcase |
-| `/projects` | Project collection grid |
-| `/credentials` | Certificates and achievements |
-| `/gallery` | Media gallery with likes |
-| `/spectrum` | Visitor analytics dashboard |
-| `/kiro` | AI assistant interface |
-
----
-
-# Repository Structure
+## ✦ Repository Structure
 
 ```bash
-app/           Next.js app router pages + API routes
-components/    Shared reusable UI components
-lib/           Constants, utilities, types
-public/        Images, assets, static files
-styles/        Global styles and animations
+app/           # Next.js app router pages + API routes
+components/    # Shared reusable UI components
+lib/           # Constants, utilities, types
+public/        # Images, assets, static files
+styles/        # Global styles and animations
 ```
 
----
+<img src="./docs/divider.svg" alt="" width="100%" height="4"/>
 
-# Included in Public Version
+## ✦ Included in Public Version
 
 This repository includes:
-- portfolio UI structure
-- selected frontend sections
-- visual systems preview
-- partial architecture exposure
-- placeholder-based customization
 
----
+- Portfolio UI structure
+- Selected frontend sections
+- Visual systems preview
+- Partial architecture exposure
+- Placeholder-based customization
 
-# Notes
+> **Note:** Some advanced systems, production modules, architecture documentation, and reusable implementation details are intentionally excluded from this public repository. Personal information has been replaced with placeholders such as `[YOUR_NAME]`, `[YOUR_EMAIL]`, `[YOUR_UNIVERSITY]` — so you can study the structure safely.
 
-This is the **free public edition** of the portfolio.
+<img src="./docs/divider.svg" alt="" width="100%" height="4"/>
 
-Some advanced systems, production modules, architecture documentation, and reusable implementation details are intentionally excluded from this repository.
+## ✦ Performance Goals
 
-Personal information has been replaced with placeholders such as:
+<table>
+<tr>
+<td width="50%" valign="top">
 
-```txt
-[YOUR_NAME]
-[YOUR_EMAIL]
-[YOUR_UNIVERSITY]
-```
+✓ Smooth, GPU-friendly animations
+✓ Serverless scalability
+✓ Edge-level performance
 
-So you can study the structure safely.
+</td>
+<td width="50%" valign="top">
 
----
+✓ Clean, modular UI architecture
+✓ Deployable on entirely free infrastructure
+✓ Zero-database, Redis-first data model
 
-# Performance Goals
+</td>
+</tr>
+</table>
 
-This portfolio is designed around:
-- smooth animations
-- serverless scalability
-- edge performance
-- clean UI architecture
-- deployability on free infrastructure
+<img src="./docs/divider.svg" alt="" width="100%" height="4"/>
 
----
+## ✦ Deployment
 
-# Deployment
+This project can be deployed on:
 
-The project can be deployed easily on:
+[![Vercel](https://img.shields.io/badge/Vercel-Recommended-0a0a0a?style=for-the-badge&logo=vercel&logoColor=00d9ff&labelColor=0a0a0a)](#)
+[![Netlify](https://img.shields.io/badge/Netlify-0a0a0a?style=for-the-badge&logo=netlify&logoColor=00d9ff&labelColor=0a0a0a)](#)
+[![Railway](https://img.shields.io/badge/Railway-0a0a0a?style=for-the-badge&logo=railway&logoColor=00d9ff&labelColor=0a0a0a)](#)
+[![Self Hosted](https://img.shields.io/badge/Self--Hosted-Node.js-0a0a0a?style=for-the-badge&logo=node.js&logoColor=00d9ff&labelColor=0a0a0a)](#)
 
-- Vercel
-- Netlify
-- Railway
-- Self-hosted Node environments
 
-Recommended:
-- Vercel Hobby Tier
 
----
+<img src="./docs/divider.svg" alt="" width="100%" height="4"/>
 
-# Philosophy
+## ✦ Philosophy
 
-This project focuses on combining:
+This project focuses on combining **engineering, aesthetics, performance, and interaction** into one cohesive developer experience — proof that a personal portfolio can be a real showcase of production-grade thinking, not just a static page.
 
-- engineering
-- aesthetics
-- performance
-- interaction
-- modern web architecture
+<img src="./docs/divider.svg" alt="" width="100%" height="4"/>
 
-into one cohesive developer experience.
+## ✦ Get the Full Version
 
----
+<div align="center">
 
-# Want the Complete Version?
+Four ways to go deeper — from a free overview to the complete production bundle.
 
-> [!TIP]
-> **Full source drops free on 26 August 2026.** Can't wait? The paid plans below get you access now.
+</div>
 
-The full premium package includes:
+<br/>
 
-## ₹695 — Architecture Guide
-Includes:
-- detailed folder explanations
-- rendering flow
-- component hierarchy
-- backend architecture
-- Redis schema explanation
-- deployment walkthrough
-- engineering decisions
-- internal system breakdown
+<table width="100%">
+<tr>
+<td width="25%" valign="top">
 
----
+###  Free
+### ₹0
 
-## ₹1065 — Full Source Code
-Includes:
-- complete production codebase
-- all components
-- KIRO AI integration
-- 3D globe system
-- gallery system
-- animations
-- placeholders configured
-- README/setup guide
+**Portfolio Overview**
 
-Ready to customize and deploy.
+A concise public breakdown of how this portfolio works and what powers it. No payment required.
 
----
+- ✅ High-level architecture overview
+- ✅ Tech stack & libraries listed
+- ✅ Feature summary with context
+- ✅ Open source — view anytime on GitHub
 
-## ₹1695 — Complete Bundle (Best Value)
-Includes:
-- everything from the Architecture Guide
-- everything from the Full Source Code
+<sub>No sign-up. Opens directly on GitHub.</sub>
 
-Best for developers who want:
-- deep understanding
-- reusable production systems
-- rapid customization workflow
+<br/><br/>
 
----
+**[View on GitHub →](https://github.com)**
+
+</td>
+<td width="25%" valign="top">
+
+###  Best for Learning
+### ₹520 <sub>one-time</sub>
+
+**Portfolio Architecture Guide**
+
+A detailed walkthrough of how this portfolio is structured — every folder, every component, every decision explained.
+
+- ✅ Complete folder structure with explanation
+- ✅ Every component broken down — what & why
+- ✅ Tech stack decisions documented
+- ✅ Design system & CSS variable usage explained
+- ✅ How to run & customize locally
+- ✅ Tips to adapt it to your own brand
+
+<sub>Delivered as 10 markdown files to your email</sub>
+
+<br/>
+
+**[Buy for ₹520 →](https://www.ayushcmd.me/buy)**
+
+</td>
+<td width="25%" valign="top">
+
+###  Most Popular
+### ₹800 <sub>one-time</sub>
+
+**Full Portfolio Source Code**
+
+The complete Next.js 15 source — same codebase, personal data replaced with placeholders. Clone it, customize it, ship it.
+
+- ✅ Full Next.js 15 + React 18 + TypeScript source
+- ✅ KIRO AI chatbot (Groq LLaMA 3.3 70B)
+- ✅ 3D skills globe + GitHub heatmap
+- ✅ Liquid button animations + ripple effects
+- ✅ All 10 credentials configured
+- ✅ Personal data replaced with placeholders
+- ✅ README with setup steps included
+
+<sub>Delivered as a .zip file to your email</sub>
+
+<br/>
+
+**[Buy for ₹800 →](https://www.ayushcmd.me/buy)**
+
+</td>
+<td width="25%" valign="top">
+
+###  Best Value
+### ₹1270 <sub>~~₹1320~~ one-time</sub>
+
+**Complete Bundle**
+
+Everything in one — the full source code and the architecture guide together. Understand it deeply and build on top of it.
+
+- ✅ Everything in the Architecture Guide
+- ✅ Everything in the Full Source Code
+- ✅ Full Next.js 15 + TypeScript source with placeholders
+- ✅ KIRO AI chatbot + 3D globe + GitHub heatmap
+- ✅ Detailed .md guide — folder, components, decisions
+- ✅ README with setup steps included
+- ✅ Best deal — saves ₹50 vs. buying separately
+
+<sub>Both files delivered to your email</sub>
+
+<br/>
+
+**[Buy for ₹1270 →](https://www.ayushcmd.me/buy)**
+
+</td>
+</tr>
+</table>
+
+<img src="./docs/divider.svg" alt="" width="100%" height="4"/>
 
 <div align="center">
 
 ## Get Access
 
+[![Get Access](https://img.shields.io/badge/ayushcmd.me%2Fbuy-00d9ff?style=for-the-badge&logoColor=0a0a0a&labelColor=0a0a0a)](https://www.ayushcmd.me/buy)
+
 ### → [ayushcmd.me/buy](https://www.ayushcmd.me/buy)
+
+<br/>
+
+<sub>Built with ⚡ and a lot of cyan. © Ayush — All rights reserved.</sub>
 
 </div>
