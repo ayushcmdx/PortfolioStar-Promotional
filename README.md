@@ -31,9 +31,21 @@
 
 <img src="./docs/divider.svg" alt="" width="100%" height="4"/>
 
-</div>
+<br/>
+
+**🆕 Latest Build (New Design)**
+
+<img src="./docs/portfolio-screenshot-new.webp" alt="Portfolio Preview — New Design" width="100%"/>
 
 <br/>
+
+**Previous Build (Old Design)**
+
+<img src="./docs/portfolio-screenshot.webp" alt="Portfolio Preview — Old Design" width="100%"/>
+
+<br/>
+
+</div>
 
 ## Overview
 
@@ -253,7 +265,56 @@ This project focuses on combining **engineering, aesthetics, performance, and in
 
 <div align="center">
 
-Four ways to go deeper — from a free overview to the complete production bundle.
+**🆕 NEW · LATEST BUILD**
+
+### Updated Portfolio Bundle — ₹2850 <sub>one-time</sub> · $34 via PayPal
+
+Full source code + architecture guide for the **current, updated portfolio** — every recent redesign and feature included.
+
+</div>
+
+<br/>
+
+<table width="100%">
+<tr>
+<td width="100%" valign="top">
+
+- ✅ Full Next.js 15 + TypeScript source — updated build
+- ✅ KIRO AI chatbot + 3D globe + GitHub heatmap
+- ✅ 5 theme modes — Dark, Light, Neural, Matrix, Journal
+- ✅ Live/profile photo integrated in hero section
+- ✅ Detailed academics graph with CGPA/SGPA breakdown
+- ✅ Smoother, optimized performance — no lag vs older build
+- ✅ Architecture guide written for the new codebase
+- ✅ README with setup steps included
+
+<sub>Both files delivered to your email · Codebase updated: 15 Jul 2026</sub>
+
+<br/>
+
+<div align="center">
+
+**[Buy for ₹2850 →](https://www.ayushcmd.me/buy/checkout?product=newbundle)**
+
+</div>
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<div align="center">
+
+<sub>Prefer the earlier design? The classic build is still available below.</sub>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+Four ways to go deeper — from a free overview to the complete classic-build bundle.
 
 </div>
 
@@ -302,7 +363,7 @@ A detailed walkthrough of how this portfolio is structured — every folder, eve
 
 <br/>
 
-**[Buy for ₹520 →](https://www.ayushcmd.me/buy)**
+**[Buy for ₹520 →](https://www.ayushcmd.me/buy/checkout?product=md)**
 
 </td>
 <td width="25%" valign="top">
@@ -326,7 +387,7 @@ The complete Next.js 15 source — same codebase, personal data replaced with pl
 
 <br/>
 
-**[Buy for ₹800 →](https://www.ayushcmd.me/buy)**
+**[Buy for ₹800 →](https://www.ayushcmd.me/buy/checkout?product=source)**
 
 </td>
 <td width="25%" valign="top">
@@ -350,7 +411,7 @@ Everything in one — the full source code and the architecture guide together. 
 
 <br/>
 
-**[Buy for ₹1270 →](https://www.ayushcmd.me/buy)**
+**[Buy for ₹1270 →](https://www.ayushcmd.me/buy/checkout?product=bundle)**
 
 </td>
 </tr>
